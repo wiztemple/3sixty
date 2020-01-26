@@ -8,10 +8,10 @@
   <title>3sixty - A personal note-keeping app</title>
 </head>
 <body>
-  <div class="app" id="landin-page">
+  <div id="landin-page">
     <header class="header">
-      <nav class="navbar white fixed-top">
-        <div class="container-fluid">
+      <nav class="navbar white">
+        <div class="container is-fluid">
           <div class="brand">
             <a href="index.html" class="navbar-item">
               <span>3Sixty</span>
@@ -27,7 +27,8 @@
             </div>
             <div class="navbar-right">
               <div class="navbar-item">
-                <button class="button button-default">LOG IN</button>
+                <button class="button button-login button-blue-2 ripple button-shadow">Login</button>
+                <button class="button button-signup button-blue-1 ripple button-shadow">Sign Up</button>
               </div>
             </div>
           </div>
@@ -36,74 +37,80 @@
     </header>
     <main>
       <section>
-        <div class="container">
+        <div class="container is-fluid">
           <div class="columns">
-            <div class="column">
+            <div class="col-7">
               <div>
-                <h1>
+                <h1 class="h2 pt-60 pb-40 main-text">
                   You can’t really manage time, but you can take small steps that counts on a long run.
                 </h1>
                 <div class="features">
-                  <div>
-                    <img class="" src="" alt="arrow-icon" />
+                  <div class="features-item">
+                    <img class="" src="./UI/assets/icons/arrow.svg" alt="arrow-icon" />
                     <span>Track your daily activities</span>
                   </div>
-                  <div>
-                    <img class="" src="" alt="arrow-icon" />
+                  <div class="features-item">
+                    <img class="" src="./UI/assets/icons/arrow.svg" alt="arrow-icon" />
                     <span>Save important notes or code snippets you’re likely to reuse</span>
                   </div>
-                  <div>
-                    <img class="" src="" alt="arrow-icon" />
+                  <div class="features-item">
+                    <img class="" src="./UI/assets/icons/arrow.svg" alt="arrow-icon" />
                     <span>keep a diary of your daily activities</span>
                   </div>
                 </div>
-                <div>
-                  <button class="button">Get Started</button>
+                <div class="mt-60">
+                  <button class="button button-gradient button-rounded ripple button-shadow">Get Started</button>
                 </div>
               </div>
             </div>
-            <div class="column">
+            <div class="col-5">
               <div class="columns">
-                <div class="col-3"></div>
-                <div class="col-6">
-                  <div class="relative">
-                    <img class="" src="./UI/assets/icons/" alt="image background" />
+                <div class="col-4"></div>
+                <div class="col-4">
+                  <div class="relative mt-60 centered-on-mobile">
+                    <div class="dots-bg-1">
+                      <img src="./UI/assets/icons/dots.svg" alt="image background" />
+                    </div>
                     <div class="banner-card">
                       <div class="banner-card-image">
-                        <img class="" src="./UI/assets/icons/" alt="image background" />
+                        <img class="" src="./UI/assets/images/todo.jpg" alt="image background" />
                       </div>
                       <div class="banner-title">
-                        <h3>track your TODOS status</h3>
+                        <span>track your TODOS status</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-3"></div>
+                <div class="col-4"></div>
               </div>
               <div class="columns">
-                <div class="col-5">
-                  <div class="relative">
-                    <img class="" src="./UI/assets/icons/" alt="image background" />
+                <div class="col-3">
+                  <div class="relative mt-50 centered-on-mobile">
+                    <div class="dots-bg-2">
+                      <img src="./UI/assets/icons/dots.svg" alt="image background" />
+                    </div>
                     <div class="banner-card">
                       <div class="banner-card-image">
-                        <img class="" src="./UI/assets/icons/" alt="image background" />
+                        <img src="./UI/assets/images/code.jpg" alt="image background" />
                       </div>
                       <div class="banner-title">
-                        <h3>Jot down reusable code snippets</h3>
+                        <span>Keep reusable code snippets</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-2"></div>
-                <div class="col-5">
-                  <div class="relative">
-                    <img class="" src="./UI/assets/icons/" alt="image background" />
+                <div class="col-6"></div>
+                <div class="col-3">
+                  <div class="relative mt-50 centered-on-mobile">
+                    <div class="dots-bg-3">
+                      <img src="./UI/assets/icons/dots.svg" alt="image background" />
+                    </div>
                     <div class="banner-card">
                       <div class="banner-card-image">
-                        <img class="" src="./UI/assets/icons/" alt="image background" />
+                        <img class="" src="./UI/assets/images/bball.jpg" alt="image background" />
                       </div>
                       <div class="banner-title">
-                        <h3>Jot down your daily activities</h3>
+                        <span>Jot down your daily activities</span>
                       </div>
                     </div>
                   </div>
@@ -114,9 +121,14 @@
           </div>
         </div>
       </section>
-      <footer>
+      <footer class="footer">
         <section>
-          <div class="container">All Rights Reserved. 2020 @wiztemple</div>
+          <div class="container is-fluid">
+            <div class="flex-center">
+              <p>All Rights Reserved. 2020 @wiztemple</p>
+            </div>
+            
+          </div>
         </section>
       </footer>
     </main>
