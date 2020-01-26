@@ -1,0 +1,9 @@
+{
+  "name": "3sixty",
+  "version": "1.0.0",
+  "description": "A personal note-keeping app",
+  "main": "index.js",
+  "repository": "https://github.com/wiztemple/3sixty.git",
+  "author": "wiztemple <wiztemple@gmail.com>",
+  "license": "MIT"
+}
